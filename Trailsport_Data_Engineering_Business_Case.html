@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trailsport – Data Engineering Business Case</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #333;
+    background: #fff;
+  }
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 25mm 20mm 30mm 20mm;
+    position: relative;
+  }
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .logo-text {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.5px;
+  }
+  /* Section headings */
+  h1 { font-size: 22px; color: #e07b39; margin-bottom: 10px; }
+  h2 { font-size: 18px; color: #e07b39; margin: 24px 0 10px 0; }
+  p  { line-height: 1.6; margin-bottom: 8px; }
+  ol { margin: 8px 0 8px 20px; }
+  ol li { line-height: 1.8; }
+  ul { margin: 6px 0 6px 20px; }
+  ul li { line-height: 1.8; }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px 0;
+    font-size: 12.5px;
+  }
+  thead tr {
+    background: #e07b39;
+    color: #fff;
+  }
+  thead th {
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: 600;
+  }
+  tbody tr:nth-child(odd)  { background: #fdf3ec; }
+  tbody tr:nth-child(even) { background: #fff; }
+  tbody td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #f0d9cc;
+  }
+  tbody td:first-child { font-weight: 600; }
+
+  /* Footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 20mm;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #777;
+  }
+  .footer-col { line-height: 1.7; }
+  .footer-col a { color: #777; text-decoration: none; }
+
+  @media print {
+    .page { padding: 20mm; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- Logo -->
+  <div class="header">
+    <div class="logo">
+      <!-- Simple SVG mountain/trail icon -->
+      <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="20,4 38,36 2,36" fill="#e07b39"/>
+        <polygon points="20,12 32,36 8,36" fill="#c45e1e"/>
+      </svg>
+      <span class="logo-text">trailsport</span>
+    </div>
+  </div>
+
+  <!-- Company intro -->
+  <h1>Trailsport</h1>
+  <p>
+    An outdoor and sporting goods company called <strong>Trailsport</strong> has conducted an
+    email advertising campaign with the goal of increasing the sales of their loyalty card. By
+    using customer surveys and online databases, they compiled a dataset with customer
+    information. They used the dataset to send emails to known customers with a discount code
+    for the loyalty card. They aim to take a data-driven approach to determine whether sending
+    the emails was effective. They want to send more emails in the future, targeting customers
+    who have a higher likelihood of signing up for the loyalty card. Additionally, they want to
+    include product recommendations in these emails that match the customer's preferences. To
+    that end, they have also formed a sales and products dataset.
+  </p>
+
+  <!-- Challenge -->
+  <h2>Your challenge</h2>
+  <p>
+    You are a data engineer tasked with getting the data in the right format for a subsequent
+    data analysis. The data scientist responsible for this has told you that he wants to use an
+    XGBoost model and wants you to verify that the data will work when used for that model. The
+    data that is available is static, but you are also tasked with thinking about how the data
+    could flow if there were incremental data updates. For this he has asked you to make a
+    visual representation of how you would process the data.
+  </p>
+  <p>To summarize, you need to answer the following main questions:</p>
+  <ol>
+    <li><strong>What steps need to be taken to clean the data such that it is usable in an XGBoost model?</strong></li>
+    <li><strong>How would you handle incremental data updates?</strong></li>
+    <li><strong>What would a visualization of the data flow look like?</strong></li>
+  </ol>
+
+  <!-- Datasets -->
+  <h2>Datasets</h2>
+  <p>The datasets compiled by <strong>Trailsport</strong> are formed as follows.</p>
+
+  <!-- Customer Dataset -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:200px;">Customer Dataset</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>CustomerID</td><td>Unique client ID</td></tr>
+      <tr><td>CustomerName</td><td>Name of client</td></tr>
+      <tr><td>BirthDate</td><td>Date, specifying birth date of client</td></tr>
+      <tr><td>Gender</td><td>'M' or 'F' for gender of client</td></tr>
+      <tr><td>MaritalStatus</td><td>Marital status of client</td></tr>
+      <tr><td>Children</td><td>Numerical, amount of children of client</td></tr>
+      <tr><td>Education</td><td>Education of client</td></tr>
+      <tr><td>Occupation</td><td>Occupation of client</td></tr>
+      <tr><td>PostalCode</td><td>Postal code of client</td></tr>
+      <tr><td>CityCat</td><td>Depending on postal code</td></tr>
+      <tr><td>Income</td><td>Numerical, income of client</td></tr>
+      <tr><td>OwnsHouse</td><td>'True' if client has a house, 'False' otherwise</td></tr>
+      <tr><td>OwnsCar</td><td>'True' if client has a car, 'False' otherwise</td></tr>
+      <tr><td>ReceivedDiscountEmail</td><td>'True' if client received an email, 'False' otherwise</td></tr>
+      <tr><td>CustomerSince</td><td>Date, specifying the first sale of client</td></tr>
+      <tr><td>HasLoyaltyCard</td><td>'True' if client has loyalty card, 'False' otherwise</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Products Dataset -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:200px;">Products Dataset</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ProductID</td><td>Unique product ID</td></tr>
+      <tr><td>Product</td><td>Name of product</td></tr>
+      <tr><td>ProductCategory</td><td>Category of product</td></tr>
+      <tr><td>ProductType</td><td>Type of product</td></tr>
+      <tr><td>Price</td><td>Numerical, price of product</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Sales Dataset -->
+  <table>
+    <thead>
+      <tr>
+        <th style="width:200px;">Sales Dataset</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>SaleID</td><td>Unique sale ID</td></tr>
+      <tr><td>CustomerID</td><td>ID of customer who made this purchase</td></tr>
+      <tr><td>SaleDate</td><td>Date, specifying when the sale was made</td></tr>
+      <tr><td>Products</td><td>List, specifying the products bought</td></tr>
+      <tr><td>ProductIDs</td><td>List, specifying Product IDs of products bought</td></tr>
+      <tr><td>SalePrice</td><td>Numerical, total price of sale</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Rules and tips -->
+  <h2>Rules and tips</h2>
+  <p>When preparing the business case please keep these rules in mind:</p>
+  <ul>
+    <li>You can spend a maximum of 12 hours on this business case; this limit is set to simulate a working environment.</li>
+    <li>You are not allowed to share any of the documents or datasets received with other people or online.</li>
+    <li>The presentation should be about 15 minutes, after which a discussion of 15 minutes about the presentation will follow.</li>
+    <li>You are allowed to use the internet, but you are not allowed to ask other people for help.</li>
+    <li>We would prefer you write a solution in Python and/or SQL.</li>
+    <li>You need to send the presentation and your code to the specified contact person.</li>
+  </ul>
+  <p>We also want to give you these tips:</p>
+  <ul>
+    <li>Support your decisions with appropriate visual representations.</li>
+    <li>Think about what future steps for this project could look like.</li>
+    <li>Keep in mind that you are presenting your plan to a person who is not a data engineer.</li>
+  </ul>
+
+</div><!-- /page -->
+
+<!-- Footer -->
+<div class="footer">
+  <div class="footer-col">
+    Trailsport B.V.<br>
+    www.trailsport.nl
+  </div>
+  <div class="footer-col">
+    Innovatielaan 12<br>
+    5600 AB Eindhoven
+  </div>
+  <div class="footer-col">
+    info@trailsport.nl<br>
+    &nbsp;
+  </div>
+  <div class="footer-col">
+    <strong>BTW</strong>&nbsp; NL900000000B01<br>
+    <strong>KvK</strong>&nbsp; 90000001
+  </div>
+</div>
+
+</body>
+</html>

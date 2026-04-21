@@ -1,0 +1,300 @@
+ProductID,Product,ProductCategory,ProductType,Price
+413100,Ranger Vision,Personal Accessories,Binoculars,
+406955,Trail Scout,Personal Accessories,Navigation,238.0
+420284,Trail Star,Personal Accessories,Navigation,154.0
+424916,Max Gizmo,Personal Accessories,Knives,38.2
+433234,Opera Vision,Personal Accessories,,110.0
+411687,Trail Master,Personal Accessories,Navigation,365.0
+420202,Hailstorm Titanium Woods Set,,Woods,
+434890,Lady Hailstorm Steel Woods Set,Golf Equipment,Woods,856.17
+446513,Course Pro Putter,Golf Equipment,Putters,72.25
+441230,Blue Steel Max Putter,Golf Equipment,Putters,169.79
+414404,TrailChef Water Bag,Camping Equipment,Cooking Gear,6.26
+419762,TrailChef Canteen,Camping Equipment,Cooking Gear,8.77
+407212,TrailChef Kitchen Kit,Camping Equipment,Cooking Gear,23.09
+455866,,Camping Equipment,Cooking Gear,
+407115,TrailChef Cook Set,Camping Equipment,Cooking Gear,52.73
+424923,TrailChef Kettle,Camping Equipment,Cooking Gear,9.29
+419770,Hibernator Lite,Camping Equipment,Sleeping Bags,84.68
+442986,Hibernator,Camping Equipment,Sleeping Bags,138.02
+419941,Hibernator Pad,Camping Equipment,Sleeping Bags,39.02
+454324,,Camping Equipment,Sleeping Bags,15.07
+410273,Hibernator Camp Cot,Camping Equipment,Sleeping Bags,98.21
+455752,Canyon Mule Climber Backpack,Camping Equipment,Packs,72.25
+439832,Canyon Mule Weekender Backpack,Camping Equipment,Packs,268.74
+447880,Canyon Mule Journey Backpack,Camping Equipment,Packs,348.61
+406224,Canyon Mule Cooler,Camping Equipment,Packs,32.58
+425198,Firefly Lite,Camping Equipment,Lanterns,14.33
+439952,Firefly Mapreader,Camping Equipment,Lanterns,15.64
+407859,Firefly 2,Camping Equipment,Lanterns,26.55
+419014,Firefly 4,Camping Equipment,Lanterns,28.85
+438569,Firefly Multi-light,Camping Equipment,Lanterns,26.01
+452995,EverGlow Single,Camping Equipment,Lanterns,33.85
+444989,EverGlow Double,,Lanterns,51.43
+403132,EverGlow Butane,Camping Equipment,Lanterns,63.67
+436694,EverGlow Lamp,Camping Equipment,Lanterns,26.98
+416002,Flicker Lantern,Camping Equipment,Lanterns,34.04
+415809,Double Edge,Personal Accessories,Knives,16.31
+401903,Seeker 35,Personal Accessories,Binoculars,98.97
+402064,Seeker 50,Personal Accessories,Binoculars,126.06
+403551,Glacier Basic,Personal Accessories,13799357014852234791,31.74
+430319,Glacier GPS,Personal Accessories,Navigation,109.73
+432180,BugShield Lotion Lite,Outdoor Protection,Insect Repellents,6.86
+454084,BugShield Lotion,Outdoor Protection,Insect Repellents,6.86
+441442,Sun Blocker,Outdoor Protection,Sunscreen,4.9
+438409,Sun Shelter 15,Outdoor Protection,Sunscreen,4.85
+434769,Sun Shelter 30,Outdoor Protection,Sunscreen,4.75
+424448,Sun Shield,Outdoor Protection,Sunscreen,5.88
+440891,Deluxe Family Relief Kit,Outdoor Protection,First Aid,33.95
+455998,Calamine Relief,Outdoor Protection,First Aid,6.0
+450671,Aloe Relief,Outdoor Protection,First Aid,5.23
+428364,Insect Bite Relief,,First Aid,
+449535,Hailstorm Steel Irons,Golf Equipment,Irons,380.4
+407080,Hailstorm Titanium Irons,Golf Equipment,Irons,872.82
+401685,Lady Hailstorm Steel Irons,Golf Equipment,Irons,500.79
+415030,Lady Hailstorm Titanium Irons,Golf Equipment,Irons,835.68
+404653,Hailstorm Steel Woods Set,Golf Equipment,Woods,678.27
+413868,Lady Hailstorm Titanium Woods Set,Golf Equipment,Woods,1278.14
+454857,Blue Steel Putter,Golf Equipment,Putters,84.45
+453049,Course Pro Golf and Tee Set,Golf Equipment,Golf Accessories,10.24
+439253,Course Pro Umbrella,Golf Equipment,Golf Accessories,12.34
+410104,Course Pro Golf Bag,Golf Equipment,Golf Accessories,206.9
+421345,Course Pro Gloves,Golf Equipment,Golf Accessories,7.59
+445447,TrailChef Deluxe Cook Set,Camping Equipment,Cooking Gear,121.94
+417405,TrailChef Double Flame,,Cooking Gear,142.66
+421142,Canyon Mule Extreme Backpack,Camping Equipment,Packs,432.89
+421245,Husky Rope 50,Mountaineering Equipment,Rope,150.4
+420755,Husky Rope 60,Mountaineering Equipment,Rope,178.6
+437748,Husky Rope 100,Mountaineering Equipment,Rope,325.86
+431123,Husky Rope 200,Mountaineering Equipment,Rope,540.48
+423544,Granite Climbing Helmet,Mountaineering Equipment,Safety,69.56
+444947,Husky Harness,Mountaineering Equipment,Safety,61.1
+444700,Granite Carabiner,Mountaineering Equipment,Climbing Accessories,3.8
+454328,,Mountaineering Equipment,,65.8
+429163,Granite Pulley,Mountaineering Equipment,Climbing Accessories,36.86
+404048,Firefly Climbing Lamp,Mountaineering Equipment,Climbing Accessories,38.79
+437531,Firefly Charger,Mountaineering Equipment,Climbing Accessories,51.4
+444890,Firefly Rechargeable Battery,Mountaineering Equipment,Climbing Accessories,7.76
+409465,Granite Chalk Bag,Mountaineering Equipment,Climbing Accessories,17.64
+426572,Granite Hammer,Mountaineering Equipment,,75.18
+434612,Granite Shovel,Mountaineering Equipment,Tools,58.19
+422926,Granite Grip,Mountaineering Equipment,Tools,19.6
+453106,Granite Axe,Mountaineering Equipment,Tools,38.4
+417325,Granite Extreme,Mountaineering Equipment,Tools,75.2
+435647,Edge Extreme,Personal Accessories,Knives,112.51
+426367,Bear Survival Edge,Personal Accessories,Knives,87.68
+401048,Pocket Gizmo,,Knives,12.2
+404590,Seeker Mini,Personal Accessories,Binoculars,80.43
+454676,Glacier GPS Extreme,Personal Accessories,Navigation,338.02
+414876,,,,
+403847,TrailChef Single Flame,Camping Equipment,Cooking Gear,62.76
+402704,Hibernator Extreme,Camping Equipment,Sleeping Bags,249.23
+440217,BugShield Spray,Outdoor Protection,Insect Repellents,5.89
+427929,TrailChef Utensils,Camping Equipment,Cooking Gear,18.71
+441441,Hibernator Self - Inflating Mat,Camping Equipment,Sleeping Bags,119.63
+432059,Canyon Mule Carryall,Camping Equipment,Packs,69.09
+441193,Firefly Extreme,Camping Equipment,Lanterns,49.7
+442828,Single Edge,Personal Accessories,Knives,12.01
+449171,Bear Edge,Personal Accessories,Knives,39.3
+448905,Glacier Deluxe,Personal Accessories,Navigation,90.65
+445474,BugShield Natural,Outdoor Protection,Insect Repellents,5.85
+452752,,,Sunscreen,4.9
+443040,Compact Relief Kit,Outdoor Protection,First Aid,22.54
+446144,EverGlow Kerosene,Camping Equipment,Lanterns,30.92
+402602,,,,
+425758,Granite Signal Mirror,Mountaineering Equipment,Safety,33.0
+443867,Granite Ice,Mountaineering Equipment,Tools,75.2
+450857,,,,
+420049,Sky Pilot,Personal Accessories,Navigation,358.0
+425461,Astro Pilot,Personal Accessories,Navigation,145.0
+423929,Auto Pilot,Personal Accessories,Navigation,235.0
+439878,Training Alphabounce Trainers,Footwear,Trainers,99.99
+450342,By Stella Mccartney Pureboost Trainers,,,
+417643,Football Predator 20.1 Trainers,Footwear,Trainers,109.99
+415598,Football Predator Tango 18.1 Trainers,Footwear,Trainers,129.99
+447476,Originals A.R. Trainers,Footwear,Trainers,79.99
+420468,Training Solar Lt Trainers,Footwear,Trainers,75.99
+450863,Football Predator 19.1 Trainers,Footwear,Trainers,109.99
+400501,Tarining Solar Lt Trainers,Footwear,Trainers,75.99
+412917,Training Fitbounce Trainers,Footwear,Trainers,75.99
+426322,Originals Summer Adilette Slippers,Footwear,Slippers,
+410627,Swimming Beach Print Maxout Slippers,Footwear,Slippers,8.99
+409169,Swim Gadi Slippers,Footwear,Slippers,14.99
+408389,Toe Side Iii Slippers,Footwear,Slippers,12.99
+425156,Swim Ozor Ii Slippers,Footwear,Slippers,
+452096,Swim Slalon Slippers,Footwear,Slippers,14.99
+415939,Swim Eezay Slippers,Footwear,Slippers,12.99
+436228,Swim Gladi 19 Slippers,Footwear,Slippers,15.99
+444247,,,,12.99
+402416,Swim Eezay Maxout Ii Slippers,Footwear,Slippers,9.99
+404633,Swim Stabile Slippers,Footwear,Slippers,12.99
+445142,Swim Bise Slippers,Footwear,Slippers,14.99
+437248,Toe Side Ii Slippers,Footwear,Slippers,12.99
+435285,Swim Coset Ii Slippers,Footwear,Slippers,14.99
+440051,Swim Puka Slippers,Footwear,Slippers,9.99
+446799,,Footwear,13080026761593931017,
+405991,Swimming Eezay Slippers,Footwear,Slippers,14.99
+425753,,,,
+445015,Swim Salon Slippers,Footwear,Slippers,14.99
+443091,Swim Brizo 4.0 Slippers,Footwear,Slippers,14.99
+410593,Adilette Comfort Slides,Footwear,Slides,32.99
+442745,Originals Adilette Lite Slides,Footwear,Slides,29.99
+405310,Unisex  Swim Adissage Slides,Footwear,Slides,22.99
+441708,Swim Adilette Comfort Slides,Footwear,Slides,32.99
+430818,Originals Adilette Zip Slides,Footwear,Slides,49.99
+412425,Originals Summer Adilette Slides,Footwear,Slides,29.99
+455242,Unisex  Swim Adilette Tnd Slides,Footwear,Slides,29.99
+402153,Originals Arsenal Adilette Shower Slides,Footwear,Slides,29.99
+427780,Unisex  Swim Adilette Aqua Slides,Footwear,Slides,17.99
+452737,Swim Adilette Cloudfoam Plus Logo Slides,Footwear,Slides,29.99
+445006,Swim Adilette Shower Slides,Footwear,Slides,19.99
+431692,Originals Adilette Slides,Footwear,Slides,49.99
+420733,,,,
+454234,Adilette Comfort Adjustable Slides,Footwear,Slides,37.99
+443844,Swim Adilette Aqua Slides,Footwear,Slides,17.99
+443306,,,,
+432763,Unisex  Adissage Tnd Slides,Footwear,Slides,32.99
+425233,Originals Fiorucci Adilette Slides,Footwear,Slides,45.99
+448145,Swim Brizo 4.0 Slides,Footwear,Slides,14.99
+426954,Sport Inspired Lite Racer Reborn Shoes,Footwear,Shoes,59.99
+400228,Sport Inspired Stunn Shoes,Footwear,Shoes,55.99
+405215,Running Helkin 3.0 Shoes,Footwear,Shoes,45.99
+443081,Running Nebular Shoes,Footwear,Shoes,45.99
+446199,Originals Ozweego Tr Shoes,Footwear,Shoes,109.99
+419982,Originals Spezial Handball Shoes,Footwear,Shoes,79.99
+406788,Running Helkin 3 Shoes,Footwear,Shoes,45.99
+425895,,,Shoes,
+425646,,Footwear,,
+456195,Sport Inspired Vs Advantage Shoes,Footwear,Shoes,39.99
+449655,Running Energy Cloud 2 Shoes,Footwear,Shoes,69.99
+442601,Sport Inspired Courtflash X Shoes,Footwear,Shoes,45.99
+401233,Originals Hypersleek Shoes,,Shoes,99.99
+430705,Originals Saint Florent Bf Shoes,Footwear,Shoes,169.99
+410329,Sports Inspired Hoops 2.0 Shoes,Footwear,Shoes,49.99
+420480,Originals Skateboarding Seeley Shoes,Footwear,Shoes,59.99
+445822,Originals Sleek Super Shoes,Footwear,Shoes,79.99
+455618,,,Shoes,109.99
+453091,Football Nemeziz 17.1 Firm Ground Shoes,Footwear,Shoes,139.99
+453018,Outdoor Bearn Shoes,Footwear,Shoes,59.99
+415630,Elevate Sandals,Footwear,Sandals,27.99
+431210,Outdoor Spry Ii Sandals,Footwear,Sandals,27.99
+431532,Outdoor Elevate 2018 Sandals,Footwear,Sandals,27.99
+437881,Outdoor Adipu Sandals,Footwear,Sandals,29.99
+402611,Outdoor Gladi 2.0 Sandals,Footwear,Sandals,27.99
+436383,Outdoor Mobe Sandals,Footwear,Sandals,24.99
+448425,Unisex  Outdoor Terrex Jawpaw Sandals,Footwear,Sandals,59.99
+408968,Outdoor Ediffin Ii Sandals,Footwear,Sandals,29.99
+428595,Outdoor Hoist 2019 Sandals,Footwear,,
+445567,Outdoor Hoist Light Sandals,Footwear,Sandals,29.99
+421028,Outdoor Mode Sandals,Footwear,Sandals,24.99
+437432,Outdoor Terra Light Sandals,Footwear,Sandals,35.99
+442526,Outdoor Adipu 2019 Sandals,Footwear,Sandals,29.99
+407887,Outdoor Elevate Sandals,Footwear,Sandals,27.99
+425192,Outdoor Marengo Ii Sandals,Footwear,Sandals,27.99
+433444,Outdoor Gempen Sandals,Footwear,Sandals,24.99
+430781,Terra Sport 19 Sandals,Footwear,Sandals,32.99
+402168,Outdoor Fassar Sandals,Footwear,Sandals,27.99
+443173,Outdoor Hoist Sandals,Footwear,Sandals,29.99
+455093,Outdoor Echo Sandals,Footwear,Sandals,27.99
+453326,Air Jordan 8 Retro,Footwear,Retro,159.95
+417158,Air Force 1 Low Retro,Footwear,Retro,0.0
+433630,Air Jordan 12 Retro,Footwear,Retro,
+449787,Air Jordan 7 Retro,Footwear,Retro,159.95
+411638,Air Jordan 10 Retro,Footwear,Retro,0.0
+434934,Air Jordan 5 Retro,Footwear,Retro,0.0
+442117,Air Jordan 13 Retro,Footwear,Retro,0.0
+440003,Air Jordan 14 Retro,Footwear,Retro,179.95
+421845,Football X 19.3 Flexible Ground Cleats,Footwear,Cleats,65.99
+436355,Football Copa 20.3 Firm Ground Cleats,Footwear,Cleats,65.99
+417485,Football X 18+ Firm Ground Cleats,Footwear,Cleats,229.99
+441495,Football Copa 19.3 Firm Ground Cleats,Footwear,Cleats,59.99
+412646,Football Nemeziz 19.4 Flexible Ground Cleats,,Cleats,45.99
+454129,Football X 19.3 Firm Ground Cleats,Footwear,Cleats,65.99
+423315,Football Predator 19.3 Firm Ground Cleats,Footwear,Cleats,65.99
+418204,Football X 19.1 Firm Ground Cleats,Footwear,Cleats,149.99
+421798,,,,
+400529,Football Predator 19+ Firm Ground Cleats,Footwear,Cleats,229.99
+439519,Football Predator 20.3 Ll Firm Ground Cleats,Footwear,Cleats,69.99
+412369,,16718670178334917405,Cleats,
+421333,Football X 18.1 Firm Ground Cleats,Footwear,Cleats,149.99
+413904,Football X 19.4 Flexible Ground Cleats,Footwear,Cleats,45.99
+447946,Nemeziz 19.3 Firm Ground Cleats,Footwear,Cleats,59.99
+421610,Football Copa 19+ Firm Ground Cleats,Footwear,Cleats,229.99
+443394,Football Copa 19.1 Firm Ground Cleats,Footwear,Cleats,139.99
+403068,Football Copa 19.4 Firm Ground Cleats,Footwear,Cleats,39.99
+449130,Football Copa 18.1 Firm Ground Cleats,Footwear,Cleats,129.99
+421645,Football Nemeziz 18.4 Flexible Ground Cleats,Footwear,Cleats,45.99
+446958,Football Nemeziz Messi 18.4 Flexible Ground Boots,Footwear,Boots,45.99
+438325,Football X 18.4 Firm Ground Boots,Footwear,Boots,
+430670,Football Nemeziz Messi 18.3 Firm Ground Boots,Footwear,Boots,65.99
+411703,Football Nemeziz 19.3 Turf Boots,Footwear,Boots,59.99
+421205,Football X 18.3 Firm Ground Boots,Footwear,Boots,65.99
+440566,Football Predator 20.3 Indoor Boots,,Boots,59.99
+420973,Football Nemeziz 18.4 Flexible Ground Boots,Footwear,Boots,45.99
+427375,Football Nemeziz 18+ Firm Ground Boots,Footwear,Boots,219.99
+404717,Football X 19.3 Turf Boots,Footwear,,59.99
+419776,S  Football Nemeziz 18+ Firm Ground Boots,Footwear,Boots,229.99
+423024,,,17336302403543930230,
+418655,Football Copa 20.4 Firm Ground Boots,Footwear,Boots,39.99
+401111,Football Predator 19.4 Flexible Ground Boots,Footwear,Boots,45.99
+454924,,Footwear,Boots,65.99
+431229,Unisex Football Predator Mutator 20+ Firm Ground Boots,Footwear,Boots,229.99
+432629,,,,
+434981,Unisex Football Predator Mutator 20.1 Firm Ground Boots,Footwear,Boots,149.99
+422265,Football Copa 18.3 Firm Ground Boots,Footwear,Boots,59.99
+427329,Football Predator 20.3 Ll Turf Boots,Footwear,Boots,69.99
+431633,Football Copa 19.3 Firm Ground Boots,Footwear,Boots,59.99
+445660,Sport-100,Accessories,Helmets,33.64
+407992,Mountain Bike Socks,Clothing,Socks,9.5
+449350,Cycling Cap,Clothing,Caps,8.64
+430815,Long-Sleeve Logo Jersey,Clothing,Jerseys,48.07
+420526,Road-150,Bikes,Road Bikes,3578.27
+444600,Road-450,,Road Bikes,1457.99
+401855,Road-650,Bikes,Road Bikes,699.1
+435164,Mountain-100,Bikes,Mountain Bikes,3399.99
+415427,Mountain-200,Bikes,Mountain Bikes,2071.42
+441433,Mountain-300,Bikes,Mountain Bikes,1079.99
+442915,Road-250,Bikes,Road Bikes,2181.56
+428393,Road-550-W,Bikes,Road Bikes,1000.44
+436238,Men's Sports Shorts,Clothing,Shorts,59.99
+449483,Touring-Panniers,Accessories,Panniers,125.0
+425345,Cable Lock,Accessories,Locks,25.0
+452609,Minipump,Accessories,Pumps,19.99
+424492,Mountain Pump,Accessories,Pumps,24.99
+409387,Taillight,Accessories,Lights,13.99
+409488,Headlights - Dual-Beam,Accessories,Lights,34.99
+443562,Headlights - Weatherproof,Accessories,Lights,44.99
+416172,Women's Tights,Clothing,Tights,74.99
+416622,Men's Bib-Shorts,Clothing,Bib-Shorts,89.99
+450576,Half-Finger Gloves,Clothing,Gloves,23.55
+424593,Full-Finger Gloves,Clothing,Gloves,37.99
+435444,Classic Vest,Clothing,Vests,63.5
+444565,Women's Mountain Shorts,Clothing,Shorts,69.99
+448438,Water Bottle,Accessories,Bottles and Cages,4.99
+404167,Mountain Bottle Cage,Accessories,Bottles and Cages,9.99
+423686,Road Bottle Cage,Accessories,Bottles and Cages,8.99
+435934,Patch kit,Accessories,Tires and Tubes,2.29
+447951,Racing Socks,Clothing,Socks,8.99
+450893,Hitch Rack - 4-Bike,Accessories,Bike Racks,120.0
+442485,Bike Wash,Accessories,Cleaners,7.95
+452358,Fender Set - Mountain,,Fenders,21.98
+415225,All-Purpose Bike Stand,Accessories,Bike Stands,159.0
+422638,Hydration Pack,Accessories,Hydration Packs,54.99
+451161,Short-Sleeve Classic Jersey,Clothing,Jerseys,53.99
+401316,Mountain Tire Tube,Accessories,Tires and Tubes,4.99
+419996,Road Tire Tube,Accessories,Tires and Tubes,3.99
+407068,,6287334431367930787,Tires and Tubes,4.99
+403046,LL Mountain Tire,Accessories,Tires and Tubes,24.99
+445602,ML Mountain Tire,Accessories,Tires and Tubes,29.99
+456075,HL Mountain Tire,Accessories,Tires and Tubes,35.0
+432193,LL Road Tire,Accessories,Tires and Tubes,21.49
+406518,ML Road Tire,Accessories,Tires and Tubes,24.99
+446026,HL Road Tire,Accessories,Tires and Tubes,32.6
+406095,Touring Tire,Accessories,Tires and Tubes,28.99
+432327,Touring-2000,Bikes,Touring Bikes,1214.85
+420314,Touring-1000,Bikes,Touring Bikes,2384.07
+438348,Touring-3000,Bikes,Touring Bikes,742.35
+455495,Road-350-W,Bikes,Road Bikes,1700.99
+423350,Road-750,Bikes,Road Bikes,539.99
+412976,Mountain-400-W,Bikes,Mountain Bikes,769.49
+455323,Mountain-500,Bikes,Mountain Bikes,564.99
